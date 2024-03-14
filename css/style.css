@@ -1,0 +1,40 @@
+html {
+    color: #1f2937;
+    background-color: #f9faf8;
+    font-family: 'roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+.header {
+    color: #f9faf8;
+    background-color: #1f2937;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 2.4rem;
+    font-weight: 900;
+    margin: 16px 0 16px 64px;
+    flex: 0 1 auto;
+}
+
+.header .nav {
+    font-size: 1.6rem;
+    list-style-type: none;
+    margin-right: 64px;
+    display: flex;
+    flex: 0 1 auto;
+    gap: 16px;
+}
+
+.nav li a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
